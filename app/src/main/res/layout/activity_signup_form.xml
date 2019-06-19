@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:focusableInTouchMode="true"
+    android:background="@drawable/login_img"
     tools:context=".MainActivity">
 
     <FrameLayout
@@ -16,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-           android:background="@color/login"/>
+            android:background="@color/login"/>
 
     </FrameLayout>
 
@@ -34,13 +35,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/gotham.tff"
-                android:text="Good "
-                android:textColor="#ffffff"
-                android:textSize="32sp" />
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@fonts/gotham.tff"-->
+            <!--android:text="Good "-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="32sp" />-->
 
         </LinearLayout>
 
@@ -55,8 +56,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:fontFamily="@font/gotham.tff"
-                android:text="Morning"
+                android:fontFamily="@fonts/gotham.tff"
+                android:text="                Mwana"
                 android:textColor="#ffffff"
                 android:textSize="32sp" />
 
@@ -78,7 +79,7 @@
         android:layout_below="@+id/linearLayout"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="4dp"
-        android:fontFamily="@font/calibri.tff"
+        android:fontFamily="@fonts/calibri.tff"
         android:gravity="center"
         android:text="We pursue a relaxed gaming experience"
         android:textColor="#9affffff"
@@ -108,7 +109,48 @@
                 android:layout_height="match_parent"
                 android:drawablePadding="16dp"
                 android:drawableRight="@drawable/baseline_email_24"
-                android:fontFamily="@font/calibri.tff"
+                android:fontFamily="@fonts/calibri.tff"
+                android:hint="Full Name"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#96ffffff"
+            android:theme="@style/EditScreenTextInputLayoutStyle">
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawablePadding="16dp"
+                android:drawableRight="@drawable/baseline_email_24"
+                android:fontFamily="@fonts/calibri.tff"
+                android:hint="Username"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#96ffffff"
+            android:theme="@style/EditScreenTextInputLayoutStyle">
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawablePadding="16dp"
+                android:drawableRight="@drawable/baseline_email_24"
+                android:fontFamily="@fonts/calibri.tff"
                 android:hint="Email"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
@@ -129,8 +171,30 @@
                 android:layout_height="match_parent"
                 android:drawablePadding="16dp"
                 android:drawableRight="@drawable/baseline_lock_24"
-                android:fontFamily="@font/calibri.tff"
+                android:fontFamily="@fonts/calibri.tff"
                 android:hint="Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#96ffffff"
+            android:theme="@style/EditScreenTextInputLayoutStyle">
+
+            <EditText
+
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawablePadding="16dp"
+                android:drawableRight="@drawable/baseline_lock_24"
+                android:fontFamily="@fonts/calibri.tff"
+                android:hint="Confirm Password"
                 android:inputType="textPassword"
                 android:maxLines="1"
                 android:textColor="@android:color/white"
@@ -150,24 +214,24 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="16dp"
                 android:background="@drawable/button_shape_white"
-                android:fontFamily="@font/calibri.tff"
+                android:fontFamily="@fonts/calibri.tff"
                 android:text="Sign up"
                 android:textAllCaps="false"
                 android:textStyle="bold"
                 android:textColor="#96ffffff"
                 android:textSize="16dp" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:background="@drawable/button_shape_white"
-                android:fontFamily="@font/calibri.tff"
-                android:text="Sign in"
-                android:textAllCaps="false"
-                android:textColor="#96ffffff"
-                android:textSize="16dp"
-                android:textStyle="bold" />
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="16dp"-->
+                <!--android:background="@drawable/button_shape_white"-->
+                <!--android:fontFamily="@fonts/calibri.tff"-->
+                <!--android:text="Sign in"-->
+                <!--android:textAllCaps="false"-->
+                <!--android:textColor="#96ffffff"-->
+                <!--android:textSize="16dp"-->
+                <!--android:textStyle="bold" />-->
 
 
         </LinearLayout>
@@ -177,7 +241,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:fontFamily="@font/calibri.tff"
+            android:fontFamily="@fonts/calibri.tff"
             android:text="Forgot Password?"
             android:textAlignment="center"
             android:textColor="#96ffffff"
