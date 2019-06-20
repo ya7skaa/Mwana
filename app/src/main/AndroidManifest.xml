@@ -4,18 +4,19 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/mommy"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Categories"></activity>
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".LogActivity" />
+        <activity android:name=".CategoriesActivity" />
         <activity android:name=".Signup_FormActivity" />
         <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Signup_Form" />
         <activity
             android:name=".Login_FormActivity"
             android:theme="@style/NoActionBarTheme" />

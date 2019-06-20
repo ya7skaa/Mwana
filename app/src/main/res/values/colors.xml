@@ -5,6 +5,7 @@
     <color name="colorAccent">#FFFFFF</color>
     <color name="textInputLayout">#96ffffff</color>
     <color name="login">#FCB07E</color>
+    <color name="category">#DD7373</color>
 
 
 </resources>

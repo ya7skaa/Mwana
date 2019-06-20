@@ -3,39 +3,39 @@ package com.example.mwana;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
-
-
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
-
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
-public class Signup_FormActivity extends AppCompatActivity {
+public class LogActivity extends AppCompatActivity {
 
-
-  private Button buttonSign;
-
+    ImageView imageView;
+    TextView textView;
+    Button signupButton;
+    Button signinButton;
+    int count = 0;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)  {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        requestWindowFeature(Window.FEATURE_NO_TITLE);
-//        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_signup_form);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        setContentView(R.layout.activity_log);
+        imageView = findViewById(R.id.imageView);
+        textView = findViewById(R.id.textView);
+        signinButton = findViewById(R.id.signin);
 
-        buttonSign = (Button) findViewById(R.id.signUp);
-
-
-        buttonSign.setOnClickListener(new View.OnClickListener() {
+        signinButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                    Toast.makeText(Signup_FormActivity.this, "hey", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(Signup_FormActivity.this,CategoriesActivity.class);
-                    startActivity(intent);
+//                Toast.makeText(LogActivity.this, "hey", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(LogActivity.this,CategoriesActivity.class);
+                startActivity(intent);
 
             }
         });
@@ -73,15 +73,6 @@ public class Signup_FormActivity extends AppCompatActivity {
 //            public void onSwipeBottom() {
 //            }
 //
-
-
 //        });
-
-
     }
-
-
-
-
-
 }

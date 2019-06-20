@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:focusableInTouchMode="true"
     android:background="@drawable/login_img"
-    tools:context=".MainActivity">
+    tools:context=".Signup_FormActivity">
 
-    <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="centerCrop"
-            android:background="@color/login"/>
-
-    </FrameLayout>
 
 
     <LinearLayout
@@ -31,19 +20,19 @@
         android:layout_marginTop="80dp"
         android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <!--<TextView-->
+        <!--<LinearLayout-->
             <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:fontFamily="@fonts/gotham.tff"-->
-            <!--android:text="Good "-->
-            <!--android:textColor="#ffffff"-->
-            <!--android:textSize="32sp" />-->
+            <!--android:layout_height="wrap_content">-->
 
-        </LinearLayout>
+            <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:fontFamily="@fonts/gotham.tff"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="Good "&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textColor="#ffffff"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textSize="32sp" />&ndash;&gt;-->
+
+        <!--</LinearLayout>-->
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -210,6 +199,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/signUp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="16dp"
