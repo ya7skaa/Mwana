@@ -211,17 +211,7 @@
                 android:textColor="#96ffffff"
                 android:textSize="16dp" />
 
-            <!--<Button-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_marginLeft="16dp"-->
-                <!--android:background="@drawable/button_shape_white"-->
-                <!--android:fontFamily="@fonts/calibri.tff"-->
-                <!--android:text="Sign in"-->
-                <!--android:textAllCaps="false"-->
-                <!--android:textColor="#96ffffff"-->
-                <!--android:textSize="16dp"-->
-                <!--android:textStyle="bold" />-->
+
 
 
         </LinearLayout>
