@@ -68,7 +68,7 @@
         android:layout_marginTop="4dp"
         android:fontFamily="@fonts/calibri.tff"
         android:gravity="center"
-        android:text="We pursue a relaxed gaming experience"
+        android:text="For the woman and the mom in you"
         android:textColor="#9affffff"
         android:textSize="10sp" />
 
