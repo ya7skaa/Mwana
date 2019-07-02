@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-     §illlk<android.support.design.widget.NavigationView
+     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -24,18 +24,18 @@
 
 
          <ImageView
-             android:layout_width="89dp"
-             android:layout_height="106dp"
+             android:layout_width="92dp"
+             android:layout_height="141dp"
              android:layout_marginLeft="15dp"
-             android:src="@drawable/baseline_person_24" />
+             android:src="@drawable/me" />
 
          <TextView
              android:id="@+id/ratingTextView"
-             android:layout_width="98dp"
+             android:layout_width="109dp"
              android:layout_height="35dp"
              android:layout_alignParentRight="true"
              android:layout_alignParentBottom="true"
-             android:text="Rating"
+             android:text="Ciku"
              android:textColor="@color/colorAccent" />
 
 

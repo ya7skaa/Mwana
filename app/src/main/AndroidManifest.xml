@@ -9,18 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ChatroomActivity"></activity>
+        <activity android:name=".ArticlesActivity"></activity>
+        <activity android:name=".ChatroomActivity" />
         <activity android:name=".ProfileActivity" />
-        <activity android:name=".LogActivity" />
+        <activity
+            android:name=".LogActivity"
+            android:theme="@style/NoActionBarTheme" />
         <activity android:name=".CategoriesActivity" />
         <activity android:name=".Signup_FormActivity" />
         <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Login_FormActivity"
-            android:theme="@style/NoActionBarTheme" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/NoActionBarTheme">

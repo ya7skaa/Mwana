@@ -45,8 +45,5 @@
         </menu>
     </item>
 
-    <item
-        android:id="@+id/about"
-        android:icon="@drawable/ic_menu_send"
-        android:title="About Us " />
+
 </menu>

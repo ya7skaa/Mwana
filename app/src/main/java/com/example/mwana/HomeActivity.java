@@ -1,5 +1,6 @@
 package com.example.mwana;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -23,14 +24,14 @@ public class HomeActivity extends AppCompatActivity
         setContentView(R.layout.activity_home);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+//        FloatingActionButton fab = findViewById(R.id.fab);
+//        fab.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                        .setAction("Action", null).show();
+//            }
+//        });
         DrawerLayout drawer = findViewById(R.id.drawer);
         NavigationView navigationView = findViewById(R.id.nav_view);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -78,19 +79,20 @@ public class HomeActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_home) {
-            // Handle the camera action
-        } else if (id == R.id.nav_profile) {
+        if (id == R.id.nav_profile) {
+            startActivity(new Intent(HomeActivity.this,ProfileActivity.class));
+
+            } else if (id == R.id.nav_profile) {
 
         } else if (id == R.id.nav_home) {
+            startActivity(new Intent(HomeActivity.this,HomeActivity.class));
 
         } else if (id == R.id.request_chat) {
 
         } else if (id == R.id.chat_room) {
+            startActivity(new Intent(HomeActivity.this,ChatroomActivity.class));
 
         } else if (id == R.id.contacts) {
-
-        }else if (id == R.id.about) {
 
         }
 

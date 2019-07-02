@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
   >
@@ -33,7 +33,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="46dp"
                     android:fontFamily="@fonts/calibri"
-                    android:text="Shotang"
+                    android:text="Mwana"
                     android:layout_marginTop="4dp"
                     android:textColor="#000000"
                     android:textSize="22sp"
@@ -41,21 +41,7 @@
                     android:layout_marginLeft="46dp"
                     android:layout_alignParentLeft="true" />
 
-                <!--<ImageView-->
-                    <!--android:layout_width="36dp"-->
-                    <!--android:layout_height="36dp"-->
-                    <!--android:layout_alignParentEnd="true"-->
-                    <!--android:layout_alignParentTop="true"-->
-                    <!--android:layout_marginEnd="56dp"-->
-                    <!--android:src="@drawable/bell_icon" />-->
 
-                <!--<ImageView-->
-                    <!--android:layout_width="36dp"-->
-                    <!--android:layout_height="36dp"-->
-                    <!--android:layout_marginRight="16dp"-->
-                    <!--android:layout_alignParentEnd="true"-->
-                    <!--android:layout_alignParentTop="true"-->
-                    <!--android:src="@drawable/cart_icon" />-->
 
             </RelativeLayout>
 
@@ -66,14 +52,14 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        android:layout_height="match_parent">
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true">
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -92,14 +78,14 @@
                         android:padding="12dp">
 
                         <ImageView
-                            android:layout_width="300dp"
-                            android:layout_height="150dp"
+                            android:layout_width="400dp"
+                            android:layout_height="200dp"
                             android:layout_marginRight="4dp"
-                            android:src="@drawable/mom" />
+                            android:src="@drawable/two" />
 
                         <ImageView
-                            android:layout_width="300dp"
-                            android:layout_height="150dp"
+                            android:layout_width="400dp"
+                            android:layout_height="200dp"
                             android:layout_marginRight="4dp"
                             android:src="@drawable/baby" />
 
@@ -137,15 +123,7 @@
                                 android:textColor="#322e47"
                                 android:textSize="16dp" />
 
-                            <!--<TextView-->
-                                <!--android:layout_width="0dp"-->
-                                <!--android:layout_height="wrap_content"-->
-                                <!--android:layout_weight="50"-->
-                                <!--android:fontFamily="@fontS/calibri"-->
-                                <!--android:gravity="right"-->
-                                <!--android:text="View All Brands"-->
-                                <!--android:textColor="#308fe9"-->
-                                <!--android:textSize="16dp" />-->
+
                         </LinearLayout>
 
                         <LinearLayout
@@ -196,10 +174,10 @@
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="Doctor Yasmin"
+                                    android:fontFamily="@fonts/calibri"
+                                    android:text="Doctor Jen"
                                     android:textColor="#000000"
-                                    android:textSize="16dp"
-                                    android:fontFamily="@fonts/calibri"/>
+                                    android:textSize="16dp" />
 
 
                             </LinearLayout>
@@ -225,10 +203,10 @@
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="Doctor Yasmin"
+                                    android:fontFamily="@fonts/calibri"
+                                    android:text="Doctor Tashanah"
                                     android:textColor="#000000"
-                                    android:textSize="16dp"
-                                    android:fontFamily="@fonts/calibri"/>
+                                    android:textSize="16dp" />
 
 
                               </LinearLayout>
@@ -258,10 +236,10 @@
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="Doctor Yasmin"
+                                    android:fontFamily="@fonts/calibri"
+                                    android:text="Doctor Micheal"
                                     android:textColor="#000000"
-                                    android:textSize="16dp"
-                                    android:fontFamily="@fonts/calibri"/>
+                                    android:textSize="16dp" />
 
                             </LinearLayout>
 
@@ -283,7 +261,7 @@
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="Doctor Yasmin"
+                                    android:text="Doctor Vanessa"
                                     android:textColor="#000000"
                                     android:textSize="16dp"
                                     android:fontFamily="@fonts/calibri"/>
@@ -308,7 +286,7 @@
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="Doctor Yasmin"
+                                    android:text="Doctor Otieno"
                                     android:textColor="#000000"
                                     android:textSize="16dp"
                                     android:fontFamily="@fonts/calibri"/>
@@ -380,6 +358,7 @@
                         android:textSize="16dp" />
 
                     <TextView
+                        android:id="@+id/articles"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -429,7 +408,7 @@
                                         <ImageView
                                             android:layout_width="72dp"
                                             android:layout_height="72dp"
-                                            android:src="@drawable/image22" />
+                                            android:src="@drawable/teething" />
 
                                     </LinearLayout>
 
@@ -446,7 +425,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginBottom="6dp"
                                             android:fontFamily="@fonts/calibri"
-                                            android:text="Huawei Nexus 6p"
+                                            android:text="Teething"
                                             android:textColor="#000000"
                                             android:textSize="18dp"
                                             android:textStyle="bold" />
@@ -456,7 +435,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginBottom="4dp"
                                             android:fontFamily="@fonts/calibri"
-                                            android:text="3 GB RAM | 5.7 inch Quad HD Display | 12.3 MP Camera | 3450 mAH Battery"
+                                            android:text="0-2 years"
                                             android:textColor="#757575"
                                             android:textSize="14dp" />
 
@@ -488,7 +467,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginBottom="6dp"
                                             android:fontFamily="@fonts/calibri"
-                                            android:text="64GB Black"
+                                            android:text="Ciku"
                                             android:textColor="#757575"
                                             android:textSize="16sp" />
 
@@ -496,8 +475,8 @@
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
                                             android:fontFamily="@fonts/calibri"
-                                            android:text="+1 More Variant"
-                                            android:textColor="#3691ea"
+                                            android:text="Read More"
+                                            android:textColor="@color/category"
                                             android:textSize="16sp" />
 
 
@@ -510,50 +489,14 @@
                                         android:layout_weight="50">
 
                                         <LinearLayout
-                                            android:layout_width="match_parent"
+                                            android:layout_width="205dp"
                                             android:layout_height="wrap_content"
                                             android:layout_gravity="center"
-                                            android:background="@drawable/buttonshape"
+                                            android:background="@drawable/button_rounded"
                                             android:weightSum="100">
 
-                                            <TextView
-                                                android:layout_width="0dp"
-                                                android:layout_height="wrap_content"
-                                                android:layout_weight="33.33"
-                                                android:fontFamily="@fonts/calibri"
-                                                android:gravity="center"
-                                                android:paddingBottom="8dp"
-                                                android:paddingTop="8dp"
-                                                android:text="-"
-                                                android:textColor="#FFFFFF"
-                                                android:textSize="18sp"
-                                                android:textStyle="bold" />
 
-                                            <TextView
-                                                android:layout_width="0dp"
-                                                android:layout_height="wrap_content"
-                                                android:layout_weight="33.33"
-                                                android:fontFamily="@fonts/calibri"
-                                                android:gravity="center"
-                                                android:paddingBottom="8dp"
-                                                android:paddingTop="8dp"
-                                                android:text="0"
-                                                android:textColor="#FFFFFF"
-                                                android:textSize="16sp"
-                                                android:textStyle="bold" />
 
-                                            <TextView
-                                                android:layout_width="0dp"
-                                                android:layout_height="wrap_content"
-                                                android:layout_weight="33.33"
-                                                android:fontFamily="@fonts/calibri"
-                                                android:gravity="center"
-                                                android:paddingBottom="8dp"
-                                                android:paddingTop="8dp"
-                                                android:text="+"
-                                                android:textColor="#FFFFFF"
-                                                android:textSize="18sp"
-                                                android:textStyle="bold" />
 
                                         </LinearLayout>
 
@@ -593,7 +536,7 @@
                                         <ImageView
                                             android:layout_width="72dp"
                                             android:layout_height="72dp"
-                                            android:src="@drawable/image23" />
+                                            android:src="@drawable/weaning" />
 
                                     </LinearLayout>
 
@@ -610,7 +553,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginBottom="6dp"
                                             android:fontFamily="@fonts/calibri"
-                                            android:text="Redmi Note 4"
+                                            android:text="Weaning"
                                             android:textColor="#000000"
                                             android:textSize="18dp"
                                             android:textStyle="bold" />
@@ -620,7 +563,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginBottom="4dp"
                                             android:fontFamily="@fonts/calibri"
-                                            android:text="4 GB RAM | 5.5 inch Full HD Display | 13 MP Camera | 4100 mAH Battery"
+                                            android:text="0-2 years"
                                             android:textColor="#757575"
                                             android:textSize="14dp" />
 
@@ -652,7 +595,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginBottom="6dp"
                                             android:fontFamily="@fonts/calibri"
-                                            android:text="64GB Gold"
+                                            android:text="John"
                                             android:textColor="#757575"
                                             android:textSize="16sp" />
 
@@ -660,8 +603,8 @@
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
                                             android:fontFamily="@fonts/calibri"
-                                            android:text="+2 More Variant"
-                                            android:textColor="#3691ea"
+                                            android:text="Read more"
+                                            android:textColor="@color/category"
                                             android:textSize="16sp" />
 
 
@@ -677,47 +620,12 @@
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
                                             android:layout_gravity="center"
-                                            android:background="@drawable/buttonshape"
+
                                             android:weightSum="100">
 
-                                            <TextView
-                                                android:layout_width="0dp"
-                                                android:layout_height="wrap_content"
-                                                android:layout_weight="33.33"
-                                                android:fontFamily="@fonts/calibri"
-                                                android:gravity="center"
-                                                android:paddingBottom="8dp"
-                                                android:paddingTop="8dp"
-                                                android:text="-"
-                                                android:textColor="#FFFFFF"
-                                                android:textSize="18sp"
-                                                android:textStyle="bold" />
 
-                                            <TextView
-                                                android:layout_width="0dp"
-                                                android:layout_height="wrap_content"
-                                                android:layout_weight="33.33"
-                                                android:fontFamily="@fonts/calibri"
-                                                android:gravity="center"
-                                                android:paddingBottom="8dp"
-                                                android:paddingTop="8dp"
-                                                android:text="0"
-                                                android:textColor="#FFFFFF"
-                                                android:textSize="16sp"
-                                                android:textStyle="bold" />
 
-                                            <TextView
-                                                android:layout_width="0dp"
-                                                android:layout_height="wrap_content"
-                                                android:layout_weight="33.33"
-                                                android:fontFamily="@fonts/calibri"
-                                                android:gravity="center"
-                                                android:paddingBottom="8dp"
-                                                android:paddingTop="8dp"
-                                                android:text="+"
-                                                android:textColor="#FFFFFF"
-                                                android:textSize="18sp"
-                                                android:textStyle="bold" />
+
 
                                         </LinearLayout>
 
